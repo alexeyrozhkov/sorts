@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorts</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <form class="form">
+            <input
+                id='input'
+                class="generateNumbers"
+                maxLength = 50
+                placeholder = 'Введите число'
+                type = 'text'
+            />
+            <button class="button" type="button">Сгенерировать</button>
+        </form>
+        <div class="sort-speed"></div>
+        <table>
+            <tr>
+                <th>Sorting type</th>
+                <th>Sorting speed</th>
+            </tr>
+            <tr>
+                <td>Buble Sort</td>
+                <td id='buble_cell'></td>
+            </tr>
+            <tr>
+                <td>Selection sort</td>
+                <td id='selection_cell'></td>
+            </tr>
+            <tr>
+                <td>Quick sort</td>
+                <td id='quick_cell'></td>
+            </tr>
+            <tr>
+                <td>Merge Sort</td>
+                <td id='merge_cell'></td>
+            </tr>
+    </table>
+    </div>
+    <script src="./module.js"></script>
+</body>
+
